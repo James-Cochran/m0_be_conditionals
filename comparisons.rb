@@ -22,24 +22,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts "is number_teachers not equal to number_students?", number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "is number_students greater than or equal to 20?", number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts "is number_students greater than or equal to 21?", number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts "is number_students less than or equal to 20?", number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts "is number_students less than or equal to 21?", number_students <= 21
 # this should print: true
 
 
@@ -53,21 +60,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: Explain. Evaluating whether the intiger 4 is less than the intiger 9. It should return True
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Explain. Evaluating whether the intiger 4 is less thank the assigned variable 3 for books.  It should return False
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: Explain. Evaluating if the friends variable is greater than the siblings variable.  It should return True
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Explain. Evaluating if the attendees variable is not equal to the meals variable.  It should be True
 
 
 #-------------------
@@ -90,16 +97,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
-
+puts loves_to_play && age < 2
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+# final line of code evaluated to True.  It returned True because the puppy "loves to play" and is younger than 2 years old.
